@@ -83,51 +83,6 @@ main{
     width: 640px;
     text-align-last: center
 }
-.select-movie{
-    position: relative;
-    float: left;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-select::-ms-expand {
-display: none;
-}
-.select-movie:after {
-    content: '< >';
-    font: 17px "Consolas", monospace;
-    color: #333;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    right: 11px;    
-    top: 18px;
-    padding: 0 0 2px;
-    border-bottom: 1px solid #999;
-    position: absolute;
-    pointer-events: none;
-}
-.select-movie select{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    display: block;
-    width: 640px;
-    max-width: 320px;
-    height: 55px;
-    margin: 5px 0px;
-    padding: 0px 24px;
-    font-size: 16px;
-    line-height: 1.75;
-    color: #333;
-    background-color: #ffffff;
-    background-image: none;
-    border: 1px solid #cccccc;
-    -ms-word-break: normal;
-    word-break: normal;
-}
-
 
 /* 再生・一時停止ボタン */
 .movie-button{
